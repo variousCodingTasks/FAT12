@@ -1,0 +1,11 @@
+called: C:\cygwin64\bin\gcc.exe
+	C:\Users\Ibrahim\Desktop\FAT12
+	C:\cygwin64\bin\gcc.exe
+	-Wall
+	-L./
+	-m32
+	my_format.c
+	-o
+	my_format
+	-lm
+

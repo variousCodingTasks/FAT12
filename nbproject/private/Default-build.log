@@ -1,0 +1,6 @@
+gcc -Wall  -L./ -m32 my_format.c -o my_format -lm
+my_format.c:9:10: fatal error: linux/types.h: No such file or directory
+ #include <linux/types.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Makefile:6: my_format] Error 1
